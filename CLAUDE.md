@@ -27,6 +27,7 @@ changelog/           # changelog public, par date ou version
 
 ## Conventions
 
+- **Workflow git/Jira** : boucle standard du `CLAUDE.md` racine (section « Workflow git & Jira ») — travail sur `feature|fix/SS-<num>-<slug>` créées via `/nouvelle-branche` depuis `dev`, jamais de commit direct sur `main`/`dev`, synchro Jira via `/point-avancement`.
 - **Format** : Markdown partout.
 - **Un guide = une tâche utilisateur concrète** (« Comment faire X »). Éviter les pages généralistes.
 - **`api/` strictement synchro avec l'API réelle** de `stellarstack-platform`. Toute divergence est un bug de doc à corriger en priorité.
